@@ -1,0 +1,38 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul{
+    display: flex;
+    gap: 35px;
+    list-style: none;
+}
+.nav-header{
+    color: #000;
+    text-decoration: none;
+}
+.navcursor{
+    cursor: pointer;
+}
+.active{
+    color: rgb(47, 47, 255);
+}
+.ul-grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.li-card{
+    display: flex;
+    flex-direction: column;
+}
+.li_img{
+    width: 300px;
+}
+.li_button{
+    width: 300px;
+}
+.detail_flex{
+    display: flex;
+    gap: 50px;
+}
